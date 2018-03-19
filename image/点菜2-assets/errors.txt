@@ -1,0 +1,2 @@
+[2017-09-05 18:03:36] layer "星@2x.png 拷贝": Expected end of input but "\u62F7" found.
+[2017-09-05 18:03:36] layer "星灰@2x.png 拷贝": Expected end of input but "\u62F7" found.

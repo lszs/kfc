@@ -1,0 +1,267 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#container{
+	width: 100%;
+	height: 100%;
+	background:#F3F4F5;
+}
+/*tou*/
+.tou{
+	width: 100%;
+	height: 40%;
+	/*background: greenyellow;*/
+	background:#FFFFFF;
+	position: relative;
+	
+}
+.first{
+	width: 100%;
+	height: 60%;
+	/*border: 1px solid red;*/
+	border-top: 1px solid white;
+	background: url(../image/beijing.jpg);
+	
+}
+.first .logo{
+	width: 90%;
+	height: 15%;
+	/*border: 1px solid blue;*/
+	margin-left: 5%;
+	margin-top: 3%;
+}
+.logo img{
+	width: 6%;
+	height: 100%;
+	
+}
+.logo .two{
+	float:right
+}
+/*second*/
+.second{
+	width: 100%;
+	height: 60%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0px;
+	top: 18%;
+	/*overflow: hidden;*/
+	
+}
+.second .kuang{
+	width: 90%;
+	height: 100%;
+	/*border: 1px solid green;*/
+	margin-left: 5%;
+	/*overflow: hidden;*/
+}
+.yi{
+	width: 100%;
+	height: 20%;
+	color: white;
+	/*overflow: hidden;*/
+	/*border: 1px solid red;*/
+	
+	
+}
+.er{
+	width: 100%;
+	height:80%;
+	background:#FFFFFF;
+	position: relative;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+	box-shadow: 1px 1px 2px 2px #F0F0F0;
+	border-radius: 8px 10px;
+	/*-webkit-box-shadow: 0px 0px 2px   black ;*/
+	
+	
+}
+.er .zuo{
+	width: 20%;
+	height: 55%;
+	border: 1px solid red;
+	position: absolute;
+	left:5%;
+	top:10%;
+	/*overflow: hidden;*/
+}
+.er .zhong{
+	width: 70%;
+	height: 50%;
+	/*border: 1px solid green;*/
+	position: absolute;
+	left: 30%;
+	top: 14%;
+	
+}
+.ji{
+	width:100%;
+	height: 35%;
+	/*border: 1px solid red;*/
+	font-size: 20px;
+	line-height: 100%;
+	
+}
+.ji img{
+	
+	height: 60%;
+	margin-left: 4%;
+	
+	
+}
+.zi1{
+	width: 100%;
+	height: 20%;
+	/*border: 1px solid red;*/
+	font-size: 13px;
+	color: #989898;
+	line-height: 100%;
+	margin-top: 3%;
+	
+	
+}
+.zi1 span{
+	margin-right: 3%;
+}
+.zi2{
+	width: 58%;
+	height: 20%;
+	/*border: 1px solid #989898 ;*/
+	margin-top: 4%;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: url(../image/song.png);
+}
+.zi2 span{
+	margin-right: 2px;
+	
+
+}
+.zi2 div{
+	margin-right: 2px;
+	
+	
+}
+
+.xia{
+	width: 90%;
+	height: 12%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 5%;
+	bottom:12%;
+	padding-bottom:0px ;
+}
+.xia img{
+	width: 5%;
+	height: 100%;
+	margin-right: 8px;
+	
+}
+.xia span{
+	font-size: 13px;
+	/*color: #989898;*/
+	color: #989898;
+	
+	line-height: 100%;
+	margin-bottom: 0px;
+	text-align: center;
+	
+	
+}
+
+/*third*/
+.third{
+	width: 90%;
+	height: 6%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 5%;
+	top: 85%;
+}
+.third img{
+	
+	height: 100%;
+	
+}
+.third span{
+	font-size: 10px;
+	
+	color: #989898;
+	margin-top: 0px;
+}
+.third .one{
+	position: absolute;
+	left:7%;
+	top:-5px;
+	
+}
+.third .two{
+	width: 17%;
+	height: 100%;
+	
+	/*border: 1px solid red;*/
+	position:absolute;
+	right: 0px;
+	top: 0px;
+}
+.two span{
+	font-size: 13px;
+	color: #989898;
+	margin-right: 5px;
+	
+}
+.two img{
+	width: 15%;
+	height: 35%;
+	position: absolute;
+	right: 0px;
+	top: 9px;
+	
+}
+
+/*daohang*/
+#container .daohang{
+	width: 100%;
+	height: 7%;
+	background:#FFFFFF;
+	/*border: 1px solid red;*/
+	margin-top: 3%;
+}
+
+.daohang ul{
+	list-style: none;
+	width: 80%;
+	height: 100%;	
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	display:flex;
+	justify-content:space-between;
+}
+.daohang ul li{
+	width: 15%;
+	height: 100%;
+	/*border: 1px solid red;*/
+	float: left;
+	color: #959595;
+	text-align: center;
+	
+	line-height:3rem;
+	
+	
+	
+}
+.daohang ul .diyi{
+	color: #FC9153;
+	border-bottom: 1.5px solid #FC9153;
+}
